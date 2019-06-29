@@ -1,0 +1,26 @@
+{
+    "name": "jack/mirco",
+    "description": "this is jack's mirco",
+    "type": "library",
+    "keywords": ["test", "jack", "php", "sdk","mirco"],
+    "homepage": "http://developer.qiniu.com/",
+    "authors":[
+        {
+            "name": "jack",
+            "email": "565792893@qq.com",
+            "homepage": "https://juejin.im"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "pf\\arr\\": "src/my",
+            "files": ["src/functions.php"]
+        }
+    }
+
+
+}
