@@ -1,10 +1,16 @@
 {
-    "name": "jack/mirco",
+    "name": "houruipeng/mirco",
     "description": "this is jack's mirco",
     "type": "library",
-    "keywords": ["test", "jack", "php", "sdk","mirco"],
+    "keywords": [
+        "test",
+        "jack",
+        "php",
+        "sdk",
+        "mirco"
+    ],
     "homepage": "http://developer.qiniu.com/",
-    "authors":[
+    "authors": [
         {
             "name": "jack",
             "email": "565792893@qq.com",
@@ -17,10 +23,10 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "pf\\arr\\": "src/my",
-            "files": ["src/functions.php"]
-        }
+            "pf\\arr\\": "src/my"
+        },
+        "files": [
+            "src/functions.php"
+        ]
     }
-
-
 }

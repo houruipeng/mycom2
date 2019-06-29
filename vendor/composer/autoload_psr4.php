@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'pf\\arr\\' => array($baseDir . '/src/my'),
-    'files' => array($baseDir . '/src/functions.php'),
 );
